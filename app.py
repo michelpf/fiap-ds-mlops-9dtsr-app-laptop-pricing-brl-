@@ -25,7 +25,7 @@ def get_prediction(data):
 
         predicted_value_formatted = locale.format_string("%d", result["prediction"], grouping=True)
 
-        st.markdown("Valor para compra: **" + predicted_value_formatted + " BRL (Brazilian Reais)**")
+        st.markdown("Valor para compra: ** " + predicted_value_formatted + " BRL (Brazilian Reais)**")
     else:
         st.markdown("Erro ao obter a previsão. Por favor, revise seus dados.")
 
